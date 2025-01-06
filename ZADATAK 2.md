@@ -35,19 +35,20 @@ DIJAGRAMI
 +-------------------------+
             |
             v
-+-------------------+  +-----------------+  +-------------------+
-|  Naplatni aparat  |  |  Garaža (Server)|  |   Baza podataka   |
-+-------------------+  +-----------------+  +-------------------+
-        |                      |                     |
-        v                      v                     v
-+----------------+   +----------------+   +----------------------+
-|  Naplata podataka|   |  Ažuriranje   |   | Pohrana podataka     |
-+----------------+   |  slobodnih mjesta |   | korisnika, parkirnih |
-        |            |  i izvještaji   |   | mjesta, naplate      |
-        v            +----------------+   +----------------------+
++-------------------+     +-----------------+     +-------------------+
+|  Naplatni aparat  |     |  Garaža (Server)|     |   Baza podataka   |
++-------------------+     +-----------------+     +-------------------+
+            |                     |                      |
+            v                     v                      v
++----------------+     +----------------+     +----------------------+
+| Naplata podataka|     | Ažuriranje     |     | Pohrana podataka     |
++----------------+     | slobodnih mjesta|     | korisnika, parkirnih |
+            |           | i izvještaji   |     | mjesta, naplate      |
+            v           +----------------+     +----------------------+
   +------------------+
-  |  Mjesečni izvještaj|
+  | Mjesečni izvještaj|
   +------------------+
+
 
 
 
