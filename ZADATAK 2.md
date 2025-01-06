@@ -30,11 +30,24 @@ DIJAGRAMI
 1.Dijagram arhitekture sustava
 
          
-flowchart LR
-    A((Korisnik)) --> B((Naplatni aparat))
-    B --> C((Garaža))
-    B --> D((Baza podataka))
-    D --> E((Mjesečni izvještaj))
++-------------------------+
+|  Korisnik (Aplikacija)  |
++-------------------------+
+            |
+            v
++-------------------+  +-----------------+  +-------------------+
+|  Naplatni aparat |  |  Garaža (Server) |  |   Baza podataka   |
++-------------------+  +-----------------+  +-------------------+
+        |                      |                     |
+        v                      v                     v
++----------------+   +----------------+   +----------------------+
+|  Naplata podataka|   |  Ažuriranje   |   | Pohrana podataka     |
++----------------+   |  slobodnih mjesta |   | korisnika, parkirnih |
+        |            |  i izvještaji   |   | mjesta, naplate      |
+        v            +----------------+   +----------------------+
+  +------------------+
+  |  Mjesečni izvještaj|
+  +------------------+
 
 
   2.Dijagram procesa naplate
