@@ -36,7 +36,7 @@ DIJAGRAMI
             |
             v
 +-------------------+  +-----------------+  +-------------------+
-|  Naplatni aparat |  |  Garaža (Server) |  |   Baza podataka   |
+|  Naplatni aparat  |  |  Garaža (Server)|  |   Baza podataka   |
 +-------------------+  +-----------------+  +-------------------+
         |                      |                     |
         v                      v                     v
@@ -48,6 +48,7 @@ DIJAGRAMI
   +------------------+
   |  Mjesečni izvještaj|
   +------------------+
+
 
 
   2.Dijagram procesa naplate
