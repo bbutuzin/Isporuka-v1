@@ -30,25 +30,11 @@ DIJAGRAMI
 1.Dijagram arhitekture sustava
 
          
-┌────────────────────┐
-│  Korisnik (Aplikacija)  │
-└────────────────────┘
-     ↓
-┌────────────┐  ┌────────────┐  ┌────────────────────┐
-│  Naplatni aparat │  │ Garaža (Server) │  │   Baza podataka   |
-└────────────┘  └────────────┘  └────────────────────┘
-     ↓     ↓     ↓
-┌────────────┐  ┌────────────┐  ┌────────────────────┐
-│  Naplata podataka|  │  Ažuriranje   |  │ Pohrana podataka     |
-└────────────┘  └────────────┘  └────────────────────┘
-     ↓     ↓
-┌────────────┐  ┌────────────┐
-│  slobodnih mjesta │  │ i izvještaji   |
-└────────────┘  └────────────┘
-     ↓
-┌────────────────────┐
-│  Mjesečni izvještaj|
-└────────────────────┘
+flowchart LR
+    A((Korisnik)) --> B((Naplatni aparat))
+    B --> C((Garaža))
+    B --> D((Baza podataka))
+    D --> E((Mjesečni izvještaj))
 
 
   2.Dijagram procesa naplate
