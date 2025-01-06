@@ -29,7 +29,6 @@ DIJAGRAMI
 
 1.Dijagram arhitekture sustava
 
-         
 +-------------------------+
 |  Korisnik (Aplikacija)  |
 +-------------------------+
@@ -48,8 +47,6 @@ DIJAGRAMI
   +------------------+
   | Mjesečni izvještaj|
   +------------------+
-
-
 
 
   2.Dijagram procesa naplate
