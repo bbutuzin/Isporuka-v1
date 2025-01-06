@@ -30,18 +30,24 @@ DIJAGRAMI
 1.Dijagram arhitekture sustava
 
          
-Korisnik (Aplikacija)
-        |
-        v
-Naplatni aparat    Garaža (Server)    Baza podataka
-        |                 |                    |
-        v                 v                    v
-Naplata podataka   Ažuriranje        Pohrana podataka
-                           slobodnih mjesta   korisnika, parkirnih
-                           i izvještaji      mjesta, naplate
-        |
-        v
-Mjesečni izvještaj
++-------------------------+
+|  Korisnik (Aplikacija)  |
++-------------------------+
+            |
+            v
++-------------------+  +-----------------+  +-------------------+
+|  **Naplatni aparat** |  |  **Garaža (Server)** |  |   **Baza podataka**  |
++-------------------+  +-----------------+  +-------------------+
+        |                      |                     |
+        v                      v                     v
++----------------+   +----------------+   +----------------------+
+|  **Naplata podataka**|   |  **Ažuriranje   |   | **Pohrana podataka**    |
++----------------+   |  slobodnih mjesta |   | korisnika, parkirnih |
+        |            |  i izvještaji   |   | mjesta, naplate      |
+        v            +----------------+   +----------------------+
+  +------------------+
+  |  **Mjesečni izvještaj**|
+  +------------------+
 
 
 
